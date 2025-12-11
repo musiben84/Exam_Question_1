@@ -1,0 +1,19 @@
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (optional - if large)
+*.csv
+*.xlsx
+*.parquet
+
+# VS Code
+.vscode/
