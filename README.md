@@ -21,7 +21,7 @@ imdb_sentiment_project/
 │   ├── 03_deep_learning_model.ipynb
 │   └── 04_rl_model_selector.ipynb
 ├── reports/
-│   └── report_template.md
+│   └── Report_and_powerpoint_presentations
 ├── src/
 │   ├── data_utils.py
 │   ├── text_preprocessing.py
@@ -31,35 +31,4 @@ imdb_sentiment_project/
 └── requirements.txt
 ```
 
-## How to Use in VS Code
 
-1. Download this project folder (or the provided zip) to your machine.
-2. Open the folder in **VS Code**.
-3. Ensure you have Python 3.9+ installed.
-4. Create and activate a virtual environment (optional but recommended).
-5. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-6. Open any notebook in the `notebooks/` folder and select your Python interpreter.
-7. Follow the instructions in each notebook in order:
-   1. `01_preprocessing_and_features.ipynb`
-   2. `02_classical_ml_model.ipynb`
-   3. `03_deep_learning_model.ipynb`
-   4. `04_rl_model_selector.ipynb`
-
-## Dataset
-
-Download the **IMDb Large Movie Review Dataset** from:
-https://ai.stanford.edu/~amaas/data/sentiment/
-
-- Extract it under the `data/` directory, e.g.:
-  - `data/aclImdb/train/`
-  - `data/aclImdb/test/`
-
-You will point your data loading code to this path in `01_preprocessing_and_features.ipynb`.
-
-## Notes
-
-- The notebooks contain **placeholders and TODOs** guiding you through the assignment.
-- Use the markdown cells to document your decisions, evaluation metrics, and interpretations, especially for Part D.
